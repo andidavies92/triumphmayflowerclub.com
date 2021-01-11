@@ -11,10 +11,7 @@ const DefaultLayout: FunctionComponent<DefaultLayoutProps> = ({ children, title 
             <link href="favicon.ico" rel="shortcut icon" />
             <link href="favicon.png" rel="icon" />
         </Head>
-        {title && <h1>{title}</h1>}
-        <main>
-            {children}
-        </main>
+        <main>{children}</main>
     </>
 );
 
