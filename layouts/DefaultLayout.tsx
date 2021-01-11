@@ -7,7 +7,6 @@ const DefaultLayout: FunctionComponent<DefaultLayoutProps> = ({ children, title 
     <>
         <Head>
             <title>{title ? `${title} · ` : ""}Triumph Mayflower Club</title>
-            <meta charSet="utf-8" />
             <link href="favicon.ico" rel="shortcut icon" />
             <link href="favicon.png" rel="icon" />
         </Head>
