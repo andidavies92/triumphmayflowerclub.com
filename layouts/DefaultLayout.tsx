@@ -1,16 +1,26 @@
+import defaultAuthor from "data/defaults/DefaultAuthor";
 import Head from "next/head";
-import { FunctionComponent } from "react";
+import Page from "model/page/Page";
 
-interface DefaultLayoutProps { title?: string; }
+import { authorToString } from "model/identity/Author";
 
-const DefaultLayout: FunctionComponent<DefaultLayoutProps> = ({ children, title }) => (
+interface DefaultLayoutProps { page: Page; }
+
+const DefaultLayout = ({ page: { content, metadata } }: DefaultLayoutProps) => (
     <>
         <Head>
-            <title>{title ? `${title} · ` : ""}Triumph Mayflower Club</title>
+            <title>{metadata.title ? `${metadata.title} · ` : ""}Triumph Mayflower Club</title>
+            <meta name="description" content="The Triumph Mayflower Club exists to keep these wonderful and unique vehicles on the road and to provide a small part of the motoring heritage for the future." />
             <link href="favicon.ico" rel="shortcut icon" />
             <link href="favicon.png" rel="icon" />
         </Head>
-        <main>{children}</main>
+        <main>
+            <article>
+                <h1>{metadata.title}</h1>
+                <p><b>Author:</b> {authorToString(metadata.author ?? defaultAuthor)}</p>
+                <p><b>Temp:</b> {content.temp}</p>
+            </article>
+        </main>
     </>
 );
 
