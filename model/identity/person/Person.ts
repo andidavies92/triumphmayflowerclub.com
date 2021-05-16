@@ -1,3 +1,8 @@
+import DatabaseRow from "types/database/DatabaseRow";
+import PersonContactDetails from "model/identity/person/PersonContactDetails";
 import PersonName from "model/identity/person/PersonName";
-type Person = { name: PersonName; };
-export default Person;
+
+export default interface Person extends DatabaseRow {
+    name: PersonName;
+    contact?: PersonContactDetails;
+}

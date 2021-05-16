@@ -16,3 +16,7 @@ Forked from [Stack-in-a-box/triumphmayflowerclub.com](https://www.github.com/Sta
 1. Run the development server by running: `yarn dev`
 2. Open [http://localhost:3000/](http://localhost:3000) in your browser to see the app running.
 3. Make your code changes and save them. The development server will watch the filesystem for changes, then automatically rebuild the app and refresh your browser to reflect your changes near-instantly.
+
+### Run tests
+
+To run [Jest](https://www.jestjs.io/)’s built-in, interactive test watcher, use the command: `yarn test`

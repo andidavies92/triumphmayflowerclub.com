@@ -1,4 +1,6 @@
-import ExamplePage from "data/pages/ExamplePage";
 import DefaultLayout from "layouts/DefaultLayout";
-const Home = () => <DefaultLayout page={ExamplePage} />;
+import HomePage from "data/pages/home/HomePage";
+
+const Home = () => <DefaultLayout page={HomePage} />;
+
 export default Home;

@@ -1,7 +1,9 @@
-type PersonName = {
+export default interface PersonName {
     forename: string;
     middleNames?: string[];
     surname: string;
-};
-
-export default PersonName;
+    display?: {
+        short?: string;
+        long?: string;
+    }
+}
