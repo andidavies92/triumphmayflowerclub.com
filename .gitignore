@@ -30,3 +30,6 @@ yarn-error.log*
 
 # Vercel
 .vercel
+
+# Yarn
+/.yarn

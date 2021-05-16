@@ -1,3 +1,2 @@
 import Person from "model/identity/person/Person";
-type Member = Person & { membershipNumber: number; };
-export default Member;
+export default interface Member extends Person { membershipNumber: number; }
