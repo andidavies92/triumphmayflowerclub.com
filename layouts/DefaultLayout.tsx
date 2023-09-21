@@ -13,9 +13,7 @@ interface DefaultLayoutProps { page: Page; }
 const DefaultLayout = ({ page: { content: { body, sidebar }, metadata: { title } } }: DefaultLayoutProps) => {
     const head = (
         <Head>
-            <meta key="charset" charSet="utf-8" />
-            <meta key="viewport" name="viewport" content="width=device-width" />
-            <title>{title !== "Home" ? `${title} · ` : ""}Triumph Mayflower Club</title>
+            <title>{`${title !== "Home" ? `${title} · ` : ""}Triumph Mayflower Club`}</title>
             <meta name="description" content="The Triumph Mayflower Club exists to keep these wonderful and unique vehicles on the road and to provide a small part of the motoring heritage for the future." />
             <link href="favicon.ico" rel="shortcut icon" />
             <link href="favicon.png" rel="icon" />
