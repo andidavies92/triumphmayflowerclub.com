@@ -9,6 +9,7 @@ Forked from [Stack-in-a-box/triumphmayflowerclub.com](https://www.github.com/Sta
 ### Prerequisites
 
 1. Install Node (and npm via the Node installer) from: https://www.nodejs.org/
+2. Install all npm dependencies by running: `npm install`
 
 ### Running the app
 
