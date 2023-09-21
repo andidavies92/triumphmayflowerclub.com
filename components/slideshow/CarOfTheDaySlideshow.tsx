@@ -64,7 +64,7 @@ const CarOfTheDaySlideshow = () => {
             <img
                 style={styles.photo}
                 src={`/slideshow/${carOfTheDay.photoFilename}`}
-                alt="Car of the Day photo"
+                alt="Today’s “Car of the Day”"
             />
             <NumberPlateMarker registration={carOfTheDay.registration} />
             <ImageCaption text={carOfTheDay.caption} />
