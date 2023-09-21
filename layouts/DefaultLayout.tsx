@@ -5,7 +5,6 @@ import HomePageBody from "components/sections/home/HomePageBody";
 import HomePageSidebar from "components/sections/home/HomePageSidebar";
 import Page from "model/pages/Page";
 import RichText from "model/text/RichText";
-import React from "react";
 import RenderedRichText from "components/sections/RenderedRichText";
 
 interface DefaultLayoutProps { page: Page; }

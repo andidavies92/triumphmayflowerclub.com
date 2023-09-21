@@ -1,6 +1,5 @@
 import CarOfTheDaySlideshow from "components/slideshow/CarOfTheDaySlideshow";
 import Link from "next/link";
-import React from "react";
 
 const HomePageSidebar = () => (
     <>
