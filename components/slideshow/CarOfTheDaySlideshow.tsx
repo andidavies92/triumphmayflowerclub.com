@@ -55,7 +55,7 @@ const CarOfTheDaySlideshow = () => {
         <img
             style={merge<CSSProperties>(styles.sellotape, style)}
             src="/graphics/sellotape.png"
-            alt="Sellotape Graphic"
+            role="presentation"
         />
     );
 
