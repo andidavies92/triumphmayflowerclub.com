@@ -10,12 +10,12 @@
     background: black;
     color: white;
 
-    &:before {
+    &::before {
         content: "•";
         margin-right: 3px;
     }
     
-    &:after {
+    &::after {
         content: "•";
         margin-left: 3px;
     }
