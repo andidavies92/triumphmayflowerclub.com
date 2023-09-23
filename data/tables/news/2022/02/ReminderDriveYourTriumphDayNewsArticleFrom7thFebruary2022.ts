@@ -4,7 +4,7 @@ import NewsArticle from "model/news/NewsArticle";
 const ReminderDriveYourTriumphDayNewsArticleFrom7thFebruary2022: NewsArticle = {
     id: "33ae0517-d3e9-4d93-b953-e90c813a586b",
     metadata: {
-        title: "Reminder – Drive Your Triumph Day",
+        title: "Reminder — Drive Your Triumph Day",
         subtitle: [
             { type: "plainText", content: "February 10" },
             {

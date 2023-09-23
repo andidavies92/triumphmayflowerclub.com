@@ -45,7 +45,7 @@ const ClubAgm2022NewsArticleFrom22ndJanuary2022: NewsArticle = {
                             type: "listItem",
                             children: [{
                                 type: "plainText",
-                                content: "Venue – Triumph Sports Six Club, Main Street, Lubenham, Market Harborough, Leicestershire, LE16 9TF."
+                                content: "Venue — Triumph Sports Six Club, Main Street, Lubenham, Market Harborough, Leicestershire, LE16 9TF."
                             }]
                         }
                     },
@@ -65,7 +65,7 @@ const ClubAgm2022NewsArticleFrom22ndJanuary2022: NewsArticle = {
                             type: "listItem",
                             children: [{
                                 type: "plainText",
-                                content: "Venue – Triumph Sports Six Club, Main Street, Lubenham, Market Harborough, Leicestershire, LE16 9TF."
+                                content: "Venue — Triumph Sports Six Club, Main Street, Lubenham, Market Harborough, Leicestershire, LE16 9TF."
                             }]
                         }
                     },
@@ -75,7 +75,7 @@ const ClubAgm2022NewsArticleFrom22ndJanuary2022: NewsArticle = {
                             type: "listItem",
                             children: [{
                                 type: "plainText",
-                                content: "Venue – Triumph Sports Six Club, Main Street, Lubenham, Market Harborough, Leicestershire, LE16 9TF."
+                                content: "Venue — Triumph Sports Six Club, Main Street, Lubenham, Market Harborough, Leicestershire, LE16 9TF."
                             }]
                         }
                     }

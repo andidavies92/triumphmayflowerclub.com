@@ -28,7 +28,7 @@ const WinterDrivingConditionsNewsArticleFrom29thOctober2020: NewsArticle = {
                     },
                     {
                         type: "plainText",
-                        content: " article – see link:"
+                        content: " article — see link:"
                     }
                 ]
             }

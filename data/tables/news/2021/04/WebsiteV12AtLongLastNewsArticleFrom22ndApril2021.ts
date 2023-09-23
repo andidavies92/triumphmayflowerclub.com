@@ -322,7 +322,7 @@ const WebsiteV12AtLongLastNewsArticleFrom22ndApril2021: NewsArticle = {
                                 },
                                 {
                                     type: "plainText",
-                                    content: " of the new website a year later, and since then we’ve gone from strength to strength, despite our limited resources. We have no intentions on sitting on our laurels though, we have big plans for the future of the site; the hope is that with some new technical improvements (keep reading to find-out more), we’ll be able to accelerate the publishing of content going forward – let’s see how high these figures can grow and what other things we can achieve as a club in the next couple of years!"
+                                    content: " of the new website a year later, and since then we’ve gone from strength to strength, despite our limited resources. We have no intentions on sitting on our laurels though, we have big plans for the future of the site; the hope is that with some new technical improvements (keep reading to find-out more), we’ll be able to accelerate the publishing of content going forward — let’s see how high these figures can grow and what other things we can achieve as a club in the next couple of years!"
                                 }
                             ]
                         }
@@ -487,7 +487,7 @@ const WebsiteV12AtLongLastNewsArticleFrom22ndApril2021: NewsArticle = {
                                             },
                                             {
                                                 type: "plainText",
-                                                content: " historical issue of our beloved long-standing club periodical, Flower Power Magazine. This has been a huge undertaking for him over the last four years, so it’s marvellous to now be able to make the entire archive – spanning right from the club’s formation in 1974 as a humble two-leaf newsletter, being one of the only means of official communication with club members far and wide, to the polished, print and digital, fully-fledged magazine it has become – available for all club members to peruse at their leisure."
+                                                content: " historical issue of our beloved long-standing club periodical, Flower Power Magazine. This has been a huge undertaking for him over the last four years, so it’s marvellous to now be able to make the entire archive — spanning right from the club’s formation in 1974 as a humble two-leaf newsletter, being one of the only means of official communication with club members far and wide, to the polished, print and digital, fully-fledged magazine it has become — available for all club members to peruse at their leisure."
                                             }
                                         ]
                                     }
@@ -663,7 +663,7 @@ const WebsiteV12AtLongLastNewsArticleFrom22ndApril2021: NewsArticle = {
                                             },
                                             {
                                                 type: "plainText",
-                                                content: " such that they now resemble physical hardwood honours boards – a fitting setting in which to remember everyone who has contributed to running the club over these many years."
+                                                content: " such that they now resemble physical hardwood honours boards — a fitting setting in which to remember everyone who has contributed to running the club over these many years."
                                             }
                                         ]
                                     }
@@ -864,7 +864,7 @@ const WebsiteV12AtLongLastNewsArticleFrom22ndApril2021: NewsArticle = {
                                     type: "paragraph",
                                     children: [{
                                         type: "plainText",
-                                        content: "Those of you who are following the development of the website may notice that the plan after the last release was to add a members-only area to the website. So, where is it? Well… I got about half-way through implementing said feature, but I regularly ran into technical roadblocks in the process, as the technology I used to build the website in the first place (a tool called “Jekyll”) isn’t really sophisticated enough to allow for these kind of rich features – at least not without some seriously elaborate and unwieldly code. It was more than sufficient for creating the new website in the form it’s currently in, but it became obvious after v1.1 released that it wasn’t going to cut the mustard for the kind of advanced functionality we have planned to take the website to the next level…"
+                                        content: "Those of you who are following the development of the website may notice that the plan after the last release was to add a members-only area to the website. So, where is it? Well… I got about half-way through implementing said feature, but I regularly ran into technical roadblocks in the process, as the technology I used to build the website in the first place (a tool called “Jekyll”) isn’t really sophisticated enough to allow for these kind of rich features — at least not without some seriously elaborate and unwieldly code. It was more than sufficient for creating the new website in the form it’s currently in, but it became obvious after v1.1 released that it wasn’t going to cut the mustard for the kind of advanced functionality we have planned to take the website to the next level…"
                                     }]
                                 }
                             }]
@@ -1111,7 +1111,7 @@ const WebsiteV12AtLongLastNewsArticleFrom22ndApril2021: NewsArticle = {
                                         children: [
                                             {
                                                 type: "plainText",
-                                                content: "By far my top priority is something I’ve envisioned since the start of the project – a bespoke "
+                                                content: "By far my top priority is something I’ve envisioned since the start of the project — a bespoke "
                                             },
                                             {
                                                 type: "inlineElement",
