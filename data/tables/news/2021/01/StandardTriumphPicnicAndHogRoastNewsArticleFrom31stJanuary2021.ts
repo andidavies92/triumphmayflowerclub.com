@@ -26,7 +26,7 @@ const StandardTriumphPicnicAndHogRoastNewsArticleFrom31stJanuary2021: NewsArticl
                 type: "paragraph",
                 children: [{
                     type: "plainText",
-                    content: "Please see the following leaflet about the upcoming picnic being held for Triumph, Standard and Standard Triumph car owners. Obviously this may yet be cancelled due to the ongoing pandemic, but we can remain hopeful!"
+                    content: "Please see the following leaflet about the upcoming picnic being held for Triumph, Standard, and Standard Triumph car owners. Obviously this may yet be cancelled due to the ongoing pandemic, but we can remain hopeful!"
                 }]
             }
         },

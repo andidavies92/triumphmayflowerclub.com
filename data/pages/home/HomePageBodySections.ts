@@ -3,11 +3,11 @@ import HomePageBodySection from "model/pages/home/HomePageBodySection";
 const HomePageBodySections: HomePageBodySection[] = [
     {
         title: "About",
-        body: "Want to know more about the club, the car or the company that started it all, the Triumph Motor Company? This is the place for it! Includes details about the club’s reach around the world and honour boards of committee members past and present."
+        body: "Want to know more about the club, the car, or the company that started it all, the Triumph Motor Company? This is the place for it! Includes details about the club’s reach around the world and honour boards of committee members past and present."
     },
     {
         title: "History",
-        body: "Articles compiled, researched and written by our website editor that delve further into the history of the club, car and company. We’re always keen to know more and to be able to publish that information here for all to see, so please get in touch if you have any such information."
+        body: "Articles compiled, researched, and written by our website editor that delve further into the history of the club, car, and company. We’re always keen to know more and to be able to publish that information here for all to see, so please get in touch if you have any such information."
     },
     {
         title: "News",
@@ -15,19 +15,19 @@ const HomePageBodySections: HomePageBodySection[] = [
     },
     {
         title: "Events",
-        body: "Everything that’s happening in the world of Mayflower! We post calendars here of upcoming events (including official club rallies), reports of rallies gone by and even member-submitted accounts of events they’ve attended around the world."
+        body: "Everything that’s happening in the world of Mayflower! We post calendars here of upcoming events (including official club rallies), reports of rallies gone by, and even member-submitted accounts of events they’ve attended around the world."
     },
     {
         title: "Photos",
-        body: "What better way to immortalise our beautiful cars than with a collection of snaps? This section is in its infancy but we intend for it to grow with your help! Looking for submissions of any kind: pre-build, during build, post-build cars, events you’ve attended and anything else you think is worthy of showing the world."
+        body: "What better way to immortalise our beautiful cars than with a collection of snaps? This section is in its infancy but we intend for it to grow with your help! Looking for submissions of any kind: pre-build, during build, post-build cars, events you’ve attended, and anything else you think is worthy of showing the world."
     },
     {
         title: "Documents",
-        body: "Our online repository of digitised technical documentation, archived Flower Power magazine issues, technical articles, AGM minutes and so on."
+        body: "Our online repository of digitised technical documentation, archived Flower Power magazine issues, technical articles, AGM minutes, and so on."
     },
     {
         title: "Shop",
-        body: "A one-stop shop for all things Mayflower. In this section, you can purchase club membership, post or view classified advertisments, buy official club regalia, order spare parts from the club and access a list of external part suppliers to help your with your build and car’s upkeep."
+        body: "A one-stop shop for all things Mayflower. In this section, you can purchase club membership, post or view classified advertisments, buy official club regalia, order spare parts from the club, and access a list of external part suppliers to help your with your build and car’s upkeep."
     },
     {
         title: "Forum",
@@ -39,7 +39,7 @@ const HomePageBodySections: HomePageBodySection[] = [
     },
     {
         title: "Links",
-        body: "This section includes links to other interesting websites, including affiliated clubs, members’ personal websites, relevant magazines and other related bodies. If you know of any sites you think would be worth featuring here, let us know."
+        body: "This section includes links to other interesting websites, including affiliated clubs, members’ personal websites, relevant magazines, and other related bodies. If you know of any sites you think would be worth featuring here, let us know."
     },
     {
         title: "Search",

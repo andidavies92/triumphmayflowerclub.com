@@ -1,6 +1,6 @@
 # Triumph Mayflower Club Website (Next.js Rewrite)
 
-This is the v2.0 rewrite of [TriumphMayflowerClub.com](https://www.triumphmayflowerclub.com/), built using [Next.js](https://www.nextjs.org/) (built on top of [React](https://www.reactjs.org/)), [TypeScript](https://www.typescriptlang.org/) and [Sass](https://www.sass-lang.com/). When this SPA reaches parity with the current [Jekyll](https://www.jekyllrb.com/)-based website, we will switch over to using this one. The objective is to enable the addition of more advanced features that are currently impossible (or at least impractical to implement) with a static website.
+This is the v2.0 rewrite of [TriumphMayflowerClub.com](https://www.triumphmayflowerclub.com/), built using [Next.js](https://www.nextjs.org/) (built on top of [React](https://www.reactjs.org/)), [TypeScript](https://www.typescriptlang.org/), and [Sass](https://www.sass-lang.com/). When this SPA reaches parity with the current [Jekyll](https://www.jekyllrb.com/)-based website, we will switch over to using this one. The objective is to enable the addition of more advanced features that are currently impossible (or at least impractical to implement) with a static website.
 
 Forked from [Stack-in-a-box/triumphmayflowerclub.com](https://www.github.com/Stack-in-a-box/triumphmayflowerclub.com).
 

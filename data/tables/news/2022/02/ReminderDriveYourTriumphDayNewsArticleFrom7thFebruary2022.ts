@@ -67,7 +67,7 @@ const ReminderDriveYourTriumphDayNewsArticleFrom7thFebruary2022: NewsArticle = {
                     },
                     {
                         type: "plainText",
-                        content: ". Take a scenic drive on a country road or out to lunch, to the market, to work, wherever. Go for a drive alone or in a big group from your local Triumph Club. Take your spouse, buddy, child, grandchild or your dog; then take a photo."
+                        content: ". Take a scenic drive on a country road or out to lunch, to the market, to work, wherever. Go for a drive alone or in a big group from your local Triumph Club. Take your spouse, buddy, child, grandchild, or your dog; then take a photo."
                     }
                 ]
             }
@@ -78,7 +78,7 @@ const ReminderDriveYourTriumphDayNewsArticleFrom7thFebruary2022: NewsArticle = {
                 type: "paragraph",
                 children: [{
                     type: "plainText",
-                    content: "The photo is mainly of the car, and the owner or passenger, if possible, ideally in front of a cool spot, landmark, scenic view or in your driveway. If it’s the middle of the winter where you live and your car is in hibernation, or in the middle of a restoration, take a photo of it in the garage. Have fun with it."
+                    content: "The photo is mainly of the car, and the owner or passenger, if possible, ideally in front of a cool spot, landmark, scenic view, or in your driveway. If it’s the middle of the winter where you live and your car is in hibernation, or in the middle of a restoration, take a photo of it in the garage. Have fun with it."
                 }]
             }
         },

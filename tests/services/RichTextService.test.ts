@@ -458,7 +458,7 @@ describe("Rich text service", () => {
             expect(actual).toEqual(expected);
         });
 
-        it("removes images, and replaces line breaks with a space character", () => {
+        it("removes images and replaces line breaks with a space character", () => {
             const input: RichText = [
                 { type: "plainText", content: "alpha" },
                 {

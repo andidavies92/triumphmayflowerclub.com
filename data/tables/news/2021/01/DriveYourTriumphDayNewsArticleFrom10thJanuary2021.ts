@@ -26,7 +26,7 @@ const DriveYourTriumphDayNewsArticleFrom10thJanuary2021: NewsArticle = {
                 type: "paragraph",
                 children: [{
                     type: "plainText",
-                    content: "It’s that time again, Drive Your Triumph Day 2021. The concept is simple: on this day, drive your Mayflower, take a photo and submit it. Even if you can’t drive your car for whatever reason, then take a photo with you and the car and send it in. If you submit a photo to DYTD, then be sure to send Rob and Barbara a copy for club members to see."
+                    content: "It’s that time again, Drive Your Triumph Day 2021. The concept is simple: on this day, drive your Mayflower, take a photo, and submit it. Even if you can’t drive your car for whatever reason, then take a photo with you and the car, and send it in. If you submit a photo to DYTD, then be sure to send Rob and Barbara a copy for club members to see."
                 }]
             }
         },
@@ -129,7 +129,7 @@ const DriveYourTriumphDayNewsArticleFrom10thJanuary2021: NewsArticle = {
                                 },
                                 {
                                     type: "plainText",
-                                    content: ", go for a drive in your Triumph. Take a scenic drive on a country road or out to lunch, to the market, to work, wherever. Go for a drive alone or in a big group from your local Triumph Club. Take your spouse, buddy, child, grandchild or your dog; then take a photo. The photo is mainly of the car, and the owner if possible, ideally in front of a cool spot, landmark, scenic view or in your driveway. If it’s the middle of the winter where you live and your car is in hibernation, or in the middle of a restoration, take a photo of it anyway."
+                                    content: ", go for a drive in your Triumph. Take a scenic drive on a country road or out to lunch, to the market, to work, wherever. Go for a drive alone or in a big group from your local Triumph Club. Take your spouse, buddy, child, grandchild, or your dog; then take a photo. The photo is mainly of the car, and the owner if possible, ideally in front of a cool spot, landmark, scenic view, or in your driveway. If it’s the middle of the winter where you live and your car is in hibernation, or in the middle of a restoration, take a photo of it anyway."
                                 }
                             ]
                         }
