@@ -7,10 +7,10 @@ const PeopleTable: DatabaseTable<Person> = [
         name: {
             forename: "Andrea",
             middleNames: ["Emma"],
-            surname: "Davies",
+            surname: "Davies-Wilcox",
             display: {
                 short: "Andi",
-                long: "Andi Emma Davies"
+                long: "Andi Emma Davies-Wilcox"
             }
         },
         contact: {
