@@ -1,5 +1,5 @@
-import CustomPageBodyEnumeration from "data/pages/sections/CustomPageBodyEnumeration";
-import CustomPageSidebarEnumeration from "data/pages/sections/CustomPageSidebarEnumeration";
+import CustomPageBodyEnumeration from "data/database/pages/sections/CustomPageBodyEnumeration";
+import CustomPageSidebarEnumeration from "data/database/pages/sections/CustomPageSidebarEnumeration";
 import Head from "next/head";
 import HomePageBody from "components/sections/home/HomePageBody";
 import HomePageSidebar from "components/sections/home/HomePageSidebar";

@@ -1,4 +1,4 @@
-import CustomPageSidebarEnumeration from "data/pages/sections/CustomPageSidebarEnumeration";
+import CustomPageSidebarEnumeration from "data/database/pages/sections/CustomPageSidebarEnumeration";
 import PageSectionType from "model/pages/sections/PageSectionType";
 import RichText from "model/text/RichText";
 

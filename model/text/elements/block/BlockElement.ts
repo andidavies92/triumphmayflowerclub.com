@@ -1,15 +1,15 @@
-import BlockQuoteElement from "model/text/elements/block/BlockQuoteElement";
-import ListElement from "model/text/elements/block/ListElement";
-import ListItemElement from "model/text/elements/block/ListItemElement";
-import ParagraphElement from "model/text/elements/block/ParagraphElement";
-import SectionElement from "model/text/elements/block/SectionElement";
+import BlockQuoteElement from "model/text/elements/block/subelements/BlockQuoteElement";
+import ListElement from "model/text/elements/block/subelements/ListElement";
+import ListItemElement from "model/text/elements/block/subelements/ListItemElement";
+import ParagraphElement from "model/text/elements/block/subelements/ParagraphElement";
+import SectionElement from "model/text/elements/block/subelements/SectionElement";
 
-import { BlockQuoteElementType } from "model/text/elements/block/BlockQuoteElement";
-import { ListElementType } from "model/text/elements/block/ListElement";
-import { ListItemElementType } from "model/text/elements/block/ListItemElement";
-import { ParagraphElementType } from "model/text/elements/block/ParagraphElement";
+import { BlockQuoteElementType } from "model/text/elements/block/subelements/BlockQuoteElement";
+import { ListElementType } from "model/text/elements/block/subelements/ListElement";
+import { ListItemElementType } from "model/text/elements/block/subelements/ListItemElement";
+import { ParagraphElementType } from "model/text/elements/block/subelements/ParagraphElement";
 import { RichTextElementWithOptionalChildren } from "model/text/elements/RichTextElement";
-import { SectionElementType } from "model/text/elements/block/SectionElement";
+import { SectionElementType } from "model/text/elements/block/subelements/SectionElement";
 
 export type BlockElementNodeType = "blockElement";
 export type BlockElementType =

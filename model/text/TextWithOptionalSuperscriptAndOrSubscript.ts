@@ -1,5 +1,5 @@
-import SubscriptElement from "model/text/elements/inline/SubscriptElement";
-import SuperscriptElement from "model/text/elements/inline/SuperscriptElement";
+import SubscriptElement from "model/text/elements/inline/subelements/SubscriptElement";
+import SuperscriptElement from "model/text/elements/inline/subelements/SuperscriptElement";
 
 import { InlineElementNode, PlainTextNode } from "model/text/RichTextNode";
 

@@ -1,7 +1,7 @@
 import RichText from "model/text/RichText";
 import RichTextService from "services/RichTextService";
 import TextWithOptionalSuperscriptAndOrSubscript from "model/text/TextWithOptionalSuperscriptAndOrSubscript";
-import WebsiteV12AtLongLastNewsArticleFrom22ndApril2021 from "data/tables/news/2021/04/WebsiteV12AtLongLastNewsArticleFrom22ndApril2021";
+import WebsiteV12AtLongLastNewsArticleFrom22ndApril2021 from "data/database/tables/news/2021/04/articles/WebsiteV12AtLongLastNewsArticleFrom22ndApril2021";
 
 describe("Rich text service", () => {
     describe("merging adjacent plain-text nodes", () => {

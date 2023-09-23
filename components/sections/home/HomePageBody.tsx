@@ -1,4 +1,4 @@
-import HomePageBodySections from "data/pages/home/HomePageBodySections";
+import HomePageBodySections from "data/database/pages/home/HomePageBodySections";
 import Link from "next/link";
 
 const HomePageBody = () => (

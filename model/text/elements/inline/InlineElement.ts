@@ -1,15 +1,15 @@
-import AnchorElement from "model/text/elements/inline/AnchorElement";
-import EmphasisElement from "model/text/elements/inline/EmphasisElement";
-import StrongElement from "model/text/elements/inline/StrongElement";
-import SubscriptElement from "model/text/elements/inline/SubscriptElement";
-import SuperscriptElement from "model/text/elements/inline/SuperscriptElement";
+import AnchorElement from "model/text/elements/inline/subelements/AnchorElement";
+import EmphasisElement from "model/text/elements/inline/subelements/EmphasisElement";
+import StrongElement from "model/text/elements/inline/subelements/StrongElement";
+import SubscriptElement from "model/text/elements/inline/subelements/SubscriptElement";
+import SuperscriptElement from "model/text/elements/inline/subelements/SuperscriptElement";
 
-import { AnchorElementType } from "model/text/elements/inline/AnchorElement";
-import { EmphasisElementType } from "model/text/elements/inline/EmphasisElement";
+import { AnchorElementType } from "model/text/elements/inline/subelements/AnchorElement";
+import { EmphasisElementType } from "model/text/elements/inline/subelements/EmphasisElement";
 import { RichTextElementWithOptionalChildren } from "model/text/elements/RichTextElement";
-import { StrongElementType } from "model/text/elements/inline/StrongElement";
-import { SubscriptElementType } from "model/text/elements/inline/SubscriptElement";
-import { SuperscriptElementType } from "model/text/elements/inline/SuperscriptElement";
+import { StrongElementType } from "model/text/elements/inline/subelements/StrongElement";
+import { SubscriptElementType } from "model/text/elements/inline/subelements/SubscriptElement";
+import { SuperscriptElementType } from "model/text/elements/inline/subelements/SuperscriptElement";
 
 export type InlineElementNodeType = "inlineElement";
 export type InlineElementType =

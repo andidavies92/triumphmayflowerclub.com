@@ -1,4 +1,4 @@
-import CustomPageBodyEnumeration from "data/pages/sections/CustomPageBodyEnumeration";
+import CustomPageBodyEnumeration from "data/database/pages/sections/CustomPageBodyEnumeration";
 import PageSectionType from "model/pages/sections/PageSectionType";
 import RichText from "model/text/RichText";
 
