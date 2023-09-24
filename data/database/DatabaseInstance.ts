@@ -4,11 +4,11 @@ import ImagesTable from "data/database/tables/ImagesTable";
 import NewsArticlesTable from "data/database/tables/news/NewsArticlesTable";
 import PeopleTable from "data/database/tables/PeopleTable";
 
-const Database = DatabaseFactory.makeDatabase({
+const DatabaseInstance = DatabaseFactory.makeDatabase({
     defaults: DefaultsTable,
     images: ImagesTable,
     people: PeopleTable,
     news: NewsArticlesTable
 });
 
-export default Database;
+export default DatabaseInstance;

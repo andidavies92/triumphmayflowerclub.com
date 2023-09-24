@@ -1,6 +1,10 @@
-import { CSSProperties } from "react";
+import PlainText from "types/PlainText";
+import TextWithOptionalSuperscriptAndOrSubscript from "model/text/TextWithOptionalSuperscriptAndOrSubscript";
 
-interface ImageCaptionProps { text: string; }
+import { CSSProperties } from "react";
+import RenderedRichText from "./RenderedRichText";
+
+interface ImageCaptionProps { text: PlainText | TextWithOptionalSuperscriptAndOrSubscript; }
 
 const style: CSSProperties = {
     marginTop: 7,
@@ -9,6 +13,10 @@ const style: CSSProperties = {
     fontWeight: "bold"
 };
 
-const ImageCaption = ({ text }: ImageCaptionProps) => <p style={style}>{text}</p>;
+const ImageCaption = ({ text }: ImageCaptionProps) => (
+    <p style={style}>
+        <RenderedRichText data={text} /> 
+    </p>
+);
 
 export default ImageCaption;

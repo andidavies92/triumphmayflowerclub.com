@@ -37,7 +37,7 @@ const styles = StylesFactory.makeStyles({
 
 const millisecondsPerDay = 8.64e7;
 
-const CarOfTheDaySlideshow = () => {
+export default function CarOfTheDaySlideshow() {
     const [carOfTheDay, setCarOfTheDay] = useState<SlideshowCar>();
 
     useEffect(() => {
@@ -78,6 +78,4 @@ const CarOfTheDaySlideshow = () => {
             {slideshow}
         </div>
     );
-};
-
-export default CarOfTheDaySlideshow;
+}

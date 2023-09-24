@@ -1,5 +1,7 @@
 import DatabaseService from "services/DatabaseService";
+import { injectable } from "tsyringe";
 
+@injectable()
 export default class NewsService {
     constructor(private databaseService: DatabaseService) {
         if (!databaseService.hasNewsTable()) throw new Error("No table with the name “news” exists within the provided database.");

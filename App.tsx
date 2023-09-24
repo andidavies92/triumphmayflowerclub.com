@@ -1,6 +1,13 @@
+import "reflect-metadata";
 import "styles/GlobalStyles.scss";
+
+import Database from "types/database/Database";
+import DatabaseInstance from "data/database/DatabaseInstance";
+
 import { AppProps } from "next/app";
+import { container } from "tsyringe";
 
-const App = ({ Component, pageProps }: AppProps) => <Component {...pageProps} />;
-
-export default App;
+export default function App({ Component, pageProps }: AppProps) {
+    container.register(Database, { useValue: DatabaseInstance });
+    return <Component {...pageProps} />;
+}

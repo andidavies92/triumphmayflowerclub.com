@@ -15,7 +15,9 @@
     "next": "^13.5.2",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "sass": "^1.68.0"
+    "reflect-metadata": "^0.1.13",
+    "sass": "^1.68.0",
+    "tsyringe": "^4.8.0"
   },
   "devDependencies": {
     "@types/jest": "^29.5.5",

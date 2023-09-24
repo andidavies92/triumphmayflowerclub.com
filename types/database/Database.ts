@@ -1,3 +1,2 @@
 import DatabaseSchema from "types/database/DatabaseSchema";
-type Database = { [tableName: string]: DatabaseSchema };
-export default Database;
+export default class Database { [tableName: string]: DatabaseSchema; }

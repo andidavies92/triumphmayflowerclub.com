@@ -5,10 +5,10 @@ export type AnchorElementType = "anchor";
 
 interface BaseAnchorElement extends BaseInlineElement { type: AnchorElementType; }
 
-interface PageAnchorElement extends BaseAnchorElement { pageUri: PageUri; }
-interface WebsiteAnchorElement extends BaseAnchorElement { websiteUri: WebsiteUri; }
-interface EmailAnchorElement extends BaseAnchorElement { emailUri: EmailUri; }
-interface PhoneAnchorElement extends BaseAnchorElement { phoneUri: PhoneUri; }
+export interface PageAnchorElement extends BaseAnchorElement { pageUri: PageUri; }
+export interface WebsiteAnchorElement extends BaseAnchorElement { websiteUri: WebsiteUri; }
+export interface EmailAnchorElement extends BaseAnchorElement { emailUri: EmailUri; }
+export interface PhoneAnchorElement extends BaseAnchorElement { phoneUri: PhoneUri; }
 
 type AnchorElement =
     PageAnchorElement |

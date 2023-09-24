@@ -5,11 +5,12 @@ import HomePageBody from "components/sections/home/HomePageBody";
 import HomePageSidebar from "components/sections/home/HomePageSidebar";
 import Page from "model/pages/Page";
 import RichText from "model/text/RichText";
-import RenderedRichText from "components/sections/RenderedRichText";
+import RenderedRichText from "components/text/RenderedRichText";
+import ImagesTable from "data/database/tables/ImagesTable";
 
 interface DefaultLayoutProps { page: Page; }
 
-const DefaultLayout = ({ page: { content: { body, sidebar }, metadata: { title } } }: DefaultLayoutProps) => {
+export default function DefaultLayout({ page: { content: { body, sidebar }, metadata: { title } } }: DefaultLayoutProps) {
     const head = (
         <Head>
             <title>{`${title !== "Home" ? `${title} · ` : ""}Triumph Mayflower Club`}</title>
@@ -64,6 +65,4 @@ const DefaultLayout = ({ page: { content: { body, sidebar }, metadata: { title }
             </main>
         </>
     );
-};
-
-export default DefaultLayout;
+}

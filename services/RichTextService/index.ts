@@ -1,10 +1,12 @@
 import RichText from "model/text/RichText";
 import TextWithOptionalSuperscriptAndOrSubscript from "model/text/TextWithOptionalSuperscriptAndOrSubscript";
 
+import { injectable } from "tsyringe";
 import { PlainTextNode } from "model/text/RichTextNode";
 
 const plainTextNodeContainingASingleSpaceCharacter: PlainTextNode = { type: "plainText", content: " " };
 
+@injectable()
 export default class RichTextService {
     mergeAdjacentPlainTextNodes(nodes: TextWithOptionalSuperscriptAndOrSubscript): TextWithOptionalSuperscriptAndOrSubscript {
         if (nodes.length < 2) return nodes;
@@ -28,10 +30,10 @@ export default class RichTextService {
         ]);
     }
 
-    flattenToString(richText: RichText): string {
+    flattenToString(richText: RichText) {
         let flattened = "";
 
-        richText.forEach(node => {
+        richText.forEach(async node => {
             const { content, type } = node;
 
             switch (type) {
@@ -64,7 +66,7 @@ export default class RichTextService {
 
         let flattened: TextWithOptionalSuperscriptAndOrSubscript = [];
         
-        richText.forEach((node, index) => {
+        richText.forEach(async (node, index) => {
             const { content, type } = node;
 
             switch (type) {
